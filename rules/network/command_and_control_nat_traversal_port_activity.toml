@@ -23,7 +23,7 @@ false_positives = [
     """,
 ]
 from = "now-9m"
-index = ["packetbeat-*", "logs-network_traffic.*"]
+index = ["packetbeat-*", "logs-network_trafficq312.*"]
 language = "kuery"
 license = "Elastic License v2"
 name = "IPSEC NAT Traversal Port Activity"
